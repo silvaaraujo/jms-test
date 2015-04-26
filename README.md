@@ -20,4 +20,4 @@ Antes de executar qualquer exemplo é necessario:
 		e execute o comando:<b> ./asadmin add-resources glassfish-resource.xml </b>(indicando o arquivo com seu caminho absoluto).</li>
 </lu>
 
-2 - Realizar o deploy da aplicação em servidor de aplicação que implemente a especificação javaEE 7.
+2 - Implantar a aplicação no servidor de aplicação Glassfish4 ou superior.
