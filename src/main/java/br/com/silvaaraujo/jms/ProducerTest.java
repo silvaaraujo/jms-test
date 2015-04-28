@@ -22,7 +22,8 @@ public class ProducerTest {
 	@PostConstruct
 	public void produzirMensagem() {
 		
-		//bloco de inicialização 
+		//Um recurso muito legal adicionado no javase7 - try-with-resources
+		//https://docs.oracle.com/javase/tutorial/essential/exceptions/tryResourceClose.html
 		try (JMSContext context = this.factory.createContext();) {
 			
 			JMSProducer producer = context.createProducer();
