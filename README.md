@@ -1,16 +1,15 @@
 # jms-test
 Projeto simples para testes sobre JMS (Java Message Service)
-<br />
 
-#Documentação oficial
+#Documentação e/ou tutorial oficial:
 https://docs.oracle.com/javaee/7/tutorial/partmessaging.htm#GFIRP3
-<br />
+
+#API JAVAEE7
+http://docs.oracle.com/javaee/7/api/
 
 #Instruções para testar o projeto
-<br />
 
 Antes de executar qualquer exemplo é necessario:
-<br />
 
 1 - Criar os objetos administrativos de JMS (factory e destination) utilizando o arquivo glassfish-resource.xml existente na pasta src/main/resources. 
 <br />
