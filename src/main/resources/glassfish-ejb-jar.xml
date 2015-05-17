@@ -1,0 +1,12 @@
+<glassfish-ejb-jar>
+    <enterprise-beans>
+        <ejb>
+            <ejb-name>ConsumerWithPriorityTest</ejb-name>
+            <bean-pool>
+                <steady-pool-size>1</steady-pool-size>
+                <resize-quantity>1</resize-quantity>
+                <max-pool-size>1</max-pool-size>
+            </bean-pool>
+        </ejb>
+    </enterprise-beans>
+</glassfish-ejb-jar>

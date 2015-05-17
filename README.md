@@ -20,3 +20,10 @@ Antes de executar qualquer exemplo é necessario:
 </lu>
 
 2 - Implantar a aplicação no servidor de aplicação Glassfish4 ou superior.
+3 - Abrir o navegador de internet de sua preferencia e acessar a seguinte URL: 
+<b>http://localhost:8080/jms-test-0.0.1-SNAPSHOT/messageGen</b>
+<b>Obs:</b> É possível alterar no momento do deploy o nome do contexto que será exposto, 
+e alterando o contexto deve-se alterar também a URL de consumo do serviço acima descrita.
+
+4 - Após o acesso da URL descrita acima serão enviadas e consumidas 100 mensagens.
+
